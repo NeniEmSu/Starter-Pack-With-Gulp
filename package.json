@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/cryptodoct0r/Starter-Pack-With-Gulp/issues"
   },
-  "homepage": "https://github.com/cryptodoct0r/Starter-Pack-With-Gulp#readme"
+  "homepage": "https://github.com/cryptodoct0r/Starter-Pack-With-Gulp#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2"
+  }
 }
