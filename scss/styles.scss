@@ -1,0 +1,22 @@
+$backgroudcolor: brickred;
+
+body {
+    color: $backgroudcolor;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 48px;
+    line-height: 20px;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10%;
+}
