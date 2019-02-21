@@ -1,0 +1,24 @@
+{
+  "name": "staterpackwithgulp",
+  "version": "1.0.0",
+  "description": "Starter pack using gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cryptodoct0r/Starter-Pack-With-Gulp.git"
+  },
+  "keywords": [
+    "gulp",
+    "npm",
+    "scss"
+  ],
+  "author": "Neni Emmanuel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cryptodoct0r/Starter-Pack-With-Gulp/issues"
+  },
+  "homepage": "https://github.com/cryptodoct0r/Starter-Pack-With-Gulp#readme"
+}
