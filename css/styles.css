@@ -1,5 +1,5 @@
 body {
-  color: brickred;
+  color: brown;
   width: 90%;
   height: 100%;
   margin: 0 auto;
@@ -12,5 +12,4 @@ h1 {
 
 p {
   font-size: 18px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-left: 10%; }
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
