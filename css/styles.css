@@ -1,15 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
 body {
-  color: brown;
+  background-color: white;
+  color: #000000;
   width: 90%;
   height: 100%;
-  margin: 0 auto;
-  padding: 0 auto; }
+  margin: 10% auto;
+  padding: 1rem auto; }
 
 h1 {
   font-family: 'Courier New', Courier, monospace;
   font-size: 48px;
-  line-height: 20px; }
+  line-height: 20px;
+  padding: 1rem 0; }
 
 p {
   font-size: 18px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 1rem 0; }

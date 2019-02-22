@@ -1,11 +1,35 @@
-$backgroudcolor: brown;
+// Variables
+$backgroudColor: rgb(255, 255, 255);
+$mainFont: 'Arial';
+$fontColor: rgb(255, 255, 255);
+$lightColor: #f4f4f4;
+$darkColor: #333;
+
+// Functions
+@function set-text-color($backgroudColor) {
+    @if(lightness($backgroudColor) > 50) {
+        @return #000000;
+    }
+
+    @else {
+        @return #ffffff;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
 
 body {
-    color: $backgroudcolor;
+    background-color: $backgroudColor;
+    color: set-text-color($backgroudColor);
     width: 90%;
     height: 100%;
-    margin: 0 auto;
-    padding: 0 auto;
+    margin: 10% auto;
+    padding: 1rem auto;
 
 }
 
@@ -13,9 +37,11 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 48px;
     line-height: 20px;
+    padding: 1rem 0;
 }
 
 p {
     font-size: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1rem 0;
 }
